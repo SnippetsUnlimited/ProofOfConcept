@@ -39,17 +39,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FuzzyTransliteration\FuzzyCharacterMapInfo.cs" />
-    <Compile Include="Parser\CharacterToken.cs" />
-    <Compile Include="StrictTranslitration\DataItem.cs" />
+    <Compile Include="FuzzyTransliteration\CharacterMapInfo.cs" />
+    <Compile Include="FuzzyTransliteration\CharacterToken.cs" />
+    <Compile Include="StrictTranslitration\SearchResult.cs" />
     <Compile Include="StrictTranslitration\KeyInfo.cs" />
     <Compile Include="StrictTranslitration\KeyCollection.cs" />
     <Compile Include="StrictTranslitration\StrictCharacterMapInfo.cs" />
     <Compile Include="StrictTranslitration\InputManager.cs" />
     <Compile Include="WordDictionary.cs" />
-    <Compile Include="Trie.cs" />
+    <Compile Include="FuzzyTransliteration\Trie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FuzzyTransliteration\FuzzyTrie.cs" />
+    <Compile Include="FuzzyTransliteration\UrduTrie.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="wordlist.txt">

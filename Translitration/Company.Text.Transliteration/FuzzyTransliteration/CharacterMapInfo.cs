@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Company.Text.Transliteration.FuzzyTransliteration
 {
-    public class FuzzyCharacterMapInfo
+    public class CharacterMapInfo
     {
         public int Backspaces = 0;
         public char English = '\x0';

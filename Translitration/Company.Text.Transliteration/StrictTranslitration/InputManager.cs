@@ -8,7 +8,7 @@ namespace Company.Text.Transliteration.StrictTranslitration
     public class InputManager
     {
         KeyCollection keycollection = new KeyCollection();
-        DataItem[] suggestions = new DataItem[0];
+        SearchResult[] suggestions = new SearchResult[0];
 
 
         public void ProcessInput(char newChar, bool useSuggestions, int suggestionCode)
@@ -55,7 +55,7 @@ namespace Company.Text.Transliteration.StrictTranslitration
             }
 
             // Reset
-            suggestions = new DataItem[0];
+            suggestions = new SearchResult[0];
 
 
             if (newChar != 0)
@@ -66,16 +66,16 @@ namespace Company.Text.Transliteration.StrictTranslitration
                 if (!useSuggestions)
                 {
                     KeyInfo key = new KeyInfo() { BackSpace = result[0].Backspaces, English = result[0].English, Urdu = result[0].Urdu };
-                    suggestions = new DataItem[] { new DataItem(keycollection.GetUrduStringPreview(prefix, key), result[0]) };
+                    suggestions = new SearchResult[] { new SearchResult(keycollection.GetUrduStringPreview(prefix, key), result[0]) };
                 }
                 else
                 {
-                    suggestions = new DataItem[result.Length];
+                    suggestions = new SearchResult[result.Length];
 
                     for (int x = 0; x < result.Length; x++)
                     {
                         var key = new KeyInfo() { BackSpace = result[x].Backspaces, English = result[x].English, Urdu = result[x].Urdu };
-                        suggestions[x] = new DataItem(keycollection.GetUrduStringPreview(prefix, key), result[x]);
+                        suggestions[x] = new SearchResult(keycollection.GetUrduStringPreview(prefix, key), result[x]);
                     }
                 }
             }

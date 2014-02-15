@@ -1,5 +1,4 @@
 ﻿using Company.Text.Transliteration.FuzzyTransliteration;
-using Company.Text.Transliteration.Parser;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +11,7 @@ namespace Company.Text.Transliteration
         private static WordDictionary singleton = null;
         private static object sync = new object();
 
-        private FuzzyTrie trie = new FuzzyTrie();
+        private UrduTrie trie = new UrduTrie();
 
         private WordDictionary() { }
 

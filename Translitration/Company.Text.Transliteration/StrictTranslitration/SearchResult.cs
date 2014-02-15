@@ -6,9 +6,9 @@ using System.Text;
 
 namespace Company.Text.Transliteration.StrictTranslitration
 {
-    public class DataItem : Tuple<string, StrictCharacterMapInfo>
+    public class SearchResult : Tuple<string, StrictCharacterMapInfo>
     {
-        public DataItem(string key, StrictCharacterMapInfo value)
+        public SearchResult(string key, StrictCharacterMapInfo value)
             : base(key, value)
         {
         }
