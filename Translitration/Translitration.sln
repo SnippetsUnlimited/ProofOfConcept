@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Text.Transliteration", "Company.Text.Transliteration\Company.Text.Transliteration.csproj", "{76BA11AE-96F0-46E0-8D88-59A1526D923B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApplication", "TestConsoleApplication\TestConsoleApplication.csproj", "{BE2ECC6F-3870-4007-AFE3-40B74B50B95F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76BA11AE-96F0-46E0-8D88-59A1526D923B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76BA11AE-96F0-46E0-8D88-59A1526D923B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76BA11AE-96F0-46E0-8D88-59A1526D923B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76BA11AE-96F0-46E0-8D88-59A1526D923B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2ECC6F-3870-4007-AFE3-40B74B50B95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2ECC6F-3870-4007-AFE3-40B74B50B95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2ECC6F-3870-4007-AFE3-40B74B50B95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2ECC6F-3870-4007-AFE3-40B74B50B95F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
